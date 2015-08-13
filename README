@@ -1,0 +1,18 @@
+# Compilation
+
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+The current settings make it necessary for libip.a to be in the project's 
+root directory. 
+To achieve this, cd into the directory `ip' and issue the command
+
+    make xcode
+
+This will compile libip.a (`make all`) and copy it to the enclosing directory
+(`cp libip.a ../`).
+
+# Acknowledgements
+
+The methods underlying the implementation of the image processing algorithms
+in this project were taught in J. Weickert's course
+"Image Processing and Computer Vision".
+

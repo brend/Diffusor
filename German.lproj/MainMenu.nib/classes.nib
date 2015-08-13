@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                openFile = id; 
+                performDiffusion = id; 
+                resetParameters = id; 
+                saveFile = id; 
+                saveFileAs = id; 
+            }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                buttonPerformDiffusion = NSButton; 
+                buttonResetParameter = NSButton; 
+                fieldCedAlpha = NSTextField; 
+                fieldCedC = NSTextField; 
+                fieldCedIterations = NSTextField; 
+                fieldCedRho = NSTextField; 
+                fieldCedSigma = NSTextField; 
+                fieldCedTau = NSTextField; 
+                fieldEedIterations = NSTextField; 
+                fieldEedLambda = NSTextField; 
+                fieldEedSigma = NSTextField; 
+                fieldEedTau = NSTextField; 
+                imageAfter = NSImageView; 
+                imageBefore = NSImageView; 
+                menuFile = id; 
+                progressIndicator = NSProgressIndicator; 
+                tabView = NSTabView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

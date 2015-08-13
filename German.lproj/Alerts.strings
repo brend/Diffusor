@@ -1,0 +1,21 @@
+
+TitleCannotOpenFileForReading = "Die Datei konnte nicht geöffnet werden.";
+BodyCannotOpenFileForReading = "Die Datei %@ konnte nicht zum Lesen geöffnet werden.";
+
+TitleCannotOpenForWriting = "Die Datei konnte nicht geöffnet werden.";
+BodyCannotOpenForWriting = "Die Datei %@ konnte nicht zum Schreiben geöffnet werden.";
+
+TitleUnknownFileTypeForWriting = "Unbekannter Dateityp.";
+BodyUnknownFileTypeForWriting = "Das Bild konnte nicht unter %@ gespeichert werden, da der Dateityp \"%@\" der Anwendung unbekannt ist.";
+
+TitleCannotRepresent = "Das Bild konnte nicht gespeichert werden.";
+BodyCannotRepresent = "Ein Fehler trat bei der Erzeugung einer Repräsentation des Bildes vom Typ \"%@\" auf.\nVersuchen Sie, das Bild in einem anderen Format zu speichern.";
+
+TitleCannotReadImage = "Das Bild konnte nicht gelesen werden.";
+BodyCannotReadImage = "Die Anwendung konnte die Daten in der Bilddatei nicht interpretieren.\nEs können nur Bilder geöffnet werden, die eine Bitmap-Repräsentation besitzen.";
+
+TitleInvalidParameter = "Ungültiger Parameter.";
+BodyInvalidParameter = "Ein oder mehrere der angegebenen Parameter waren ungültig.\nBitte beachten Sie die Einschränkungen der Wertebereiche der Parameter.";
+
+TitleNoImageCreated = "Speichern ist nicht möglich.";
+BodyNoImageCreated = "Bevor Sie speichern können, müssen Sie ein Bild mit einer der Bildbearbeitungsfunktionen erzeugen.";

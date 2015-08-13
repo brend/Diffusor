@@ -1,0 +1,21 @@
+
+TitleCannotOpenFileForReading = "File couldn't be opened.";
+BodyCannotOpenFileForReading = "The file %@ couldn't be opened for reading.";
+
+TitleCannotOpenForWriting = "File couldn't be opened.";
+BodyCannotOpenForWriting = "The file %@ couldn't be opened for writing.";
+
+TitleUnknownFileTypeForWriting = "Unknown file type";
+BodyUnknownFileTypeForWriting = "The image couldn't be saved as %@, because the file type \"%@\" is unknown to the application.";
+
+TitleCannotRepresent = "The image couldn't be saved.";
+BodyCannotRepresent = "An error occured during the creation of an image representation of type \"%@\".\nTry to save the image in another format.";
+
+TitleCannotReadImage = "Image couldn't be read.";
+BodyCannotReadImage = "The data contained in the specified image file couldn't be interpreted by the application.\nOnly images possessing a bitmap representation can be opened.";
+
+TitleInvalidParameter = "Invalid parameter.";
+BodyInvalidParameter = "One or more of the specified parameters are invalid.\nPlease note the limitations on the parameters' ranges.";
+
+TitleNoImageCreated = "Saving isn't possible.";
+BodyNoImageCreated = "You have to create an image using one of the image processing methods before you can save.";
